@@ -11,9 +11,7 @@ on:
 permissions:
   contents: read
 
-env:
-  ACTIONS_RUNNER_DEBUG: true
-  ACTIONS_STEP_DEBUG: true
+# env:
 
 jobs:
   test-typescript:
